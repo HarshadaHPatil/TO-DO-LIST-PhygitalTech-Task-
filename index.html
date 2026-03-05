@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List web application</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <h2 class="logo">TO-DO LIST</h2>
+      </div>
+
+      <div class="header-center">
+        <h4 class="subtitle">Filter · Edit · Delete · Reorder</h4>
+      </div>
+
+      <div class="header-right">
+        <button id="themeToggle">🌙</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="todo-input">
+        <input type="text" id="taskInput" placeholder="Enter your task.." />
+        <button id="addTaskBtn">Add Task</button>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+        <button class="filter-btn" data-filter="pending">Pending</button>
+      </div>
+
+      <div id="taskMessage" class="task-message">
+    Enter your tasks
+</div>
+
+<div class="task-list" id="taskList"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
