@@ -26,7 +26,7 @@ This project is a responsive To-Do List web application that allows users to man
 5️⃣ Filter Tasks  
 - Users can filter tasks by: All, Completed, Pending
 
-6️⃣ Drag & Drop Functionality  
+6️⃣ Drag Functionality  
 - Users can drag and drop tasks to reorder them.  
 - Task order persists using LocalStorage.
 
